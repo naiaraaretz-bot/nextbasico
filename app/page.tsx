@@ -1,10 +1,11 @@
-import Image from "next/image";
+import Banner from "./components/banner";
+import Header from "./components/Header"
 
 export default function Home() {
   return (
-    <>
-    <h1>UTFPR</h1>
-    <h2>Francisco Beltrão</h2>
-    </>
+    <div>
+      <Header />
+      <Banner />
+    </div>
   );
 }
